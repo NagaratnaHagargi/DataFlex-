@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    width: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,91,121,1) 35%, rgba(0,212,255,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+    section>.myForm{
+        height: 30%;
+        width: 80%;
+        border: 2px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    section>.myForm>form>input{
+        height: 50px;
+        width: 200px;
+        border-radius: 20px;
+        padding: 10px;
+        border: none;
+        border: 2px solid white;
+        background-color: transparent;
+        outline: none;
+        color: white;
+        margin-left: 25px;
+
+    }
+    section>.myForm>form>input::placeholder{
+        color: white;
+    }
+    section>.myForm>form>button{
+        height: 35px;
+        width: 100px;
+        border: radius 20px;
+        border: none;
+        border: 2px solid white;
+        background-color: transparent;
+        color: white;
+        margin-left: 25px;
+    }
+    section>.myForm>form>button:hover{
+        cursor: pointer;
+        transform: scale(1.25);
+    }
+    section>.datatable{
+        height: 60%;
+        width: 80%;
+        border: 2px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        padding-top: 20px;
+
+    }
+    section>.datatable>table{
+        width: 80%;
+        color: white;
+
+    }
+    section>.datatable>table th,tr{
+        border: 2px solid white;
+        padding: 10px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    section>.datatable>table  button{
+        height: 18px;
+        width: 60px;
+        border: radius 20px;
+        border: none;
+        border: 2px solid white;
+        background-color: transparent;
+        color: white;
+    }
